@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "645074177972",
+    "project_id": "fir-137fd",
+    "storage_bucket": "fir-137fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645074177972:android:4f7edf63d31e9f8e15ace1",
+        "android_client_info": {
+           "package_name": "com.example.chatappgfg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645074177972-l88r88a9b41hslq7q9ka3v5m8bfa7u6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP-ZmLpQIGfI6kprsTkJgV9ZuXmIBsOCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645074177972-l88r88a9b41hslq7q9ka3v5m8bfa7u6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

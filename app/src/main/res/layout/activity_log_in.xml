@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:layout_marginBottom="227dp"
+        android:hint="@string/enter_password" />
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:layout_marginBottom="303dp"
+        android:hint="@string/enter_your_email" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="142dp"
+        android:text="Sign In"
+        android:id="@+id/Signin"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_700"
+        />
+    <Button
+        android:layout_width="110dp"
+        android:id="@+id/Signup"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_200"
+        />
+
+
+</RelativeLayout>
