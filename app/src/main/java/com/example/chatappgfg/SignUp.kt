@@ -7,6 +7,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
 class SignUp : AppCompatActivity() {
 
@@ -16,6 +18,7 @@ class SignUp : AppCompatActivity() {
     //private lateinit var Sin : Button
     private lateinit var Sup : Button
     private lateinit var mAuth: FirebaseAuth
+    private lateinit var mDbRef : DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,6 +47,7 @@ class SignUp : AppCompatActivity() {
                    //code for jumping to home activity
                        addUserToDatabase(name,email,mAuth.currentUser?.uid!!)
                     val intent = Intent(this@SignUp,MainActivity::class.java)
+                    finish()
                     startActivity(intent)
                 } else {
                     // If sign in fails, display a message to the user.
@@ -53,7 +57,12 @@ class SignUp : AppCompatActivity() {
             }
     }
     private fun addUserToDatabase(name:String, email: String,uid: String){
-        
+         mDbRef = FirebaseDatabase.getInstance().getReference()
+        //Now adding user to the database,
+        //we will set a parent path as "user" and then child path will unique as uid then
+        // we will store a user's information by using set value and passing name,email and uid
+        mDbRef.child("user").child(uid).setValue(User(name,email,uid))
+        //just like this , it will add an user to the database
     }
 
 

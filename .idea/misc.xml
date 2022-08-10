@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/drawable/message_box_background.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/drawable/sample_button.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/layout/activity_chat.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/layout/activity_log_in.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/layout/activity_sign_up.xml" value="0.11524822695035461" />
+        <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/layout/receive.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/layout/sample_button.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/layout/sent.xml" value="0.2" />
         <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/layout/user_layout.xml" value="0.11524822695035461" />
+        <entry key="..\:/Users/Lenovo/ChatAppGFG/app/src/main/res/menu/menu.xml" value="0.16203703703703703" />
       </map>
     </option>
   </component>
@@ -19,7 +26,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.11524822695035461" />
+        <option name="scale" value="0.2" />
       </ProjectState>
     </option>
   </component>

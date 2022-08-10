@@ -7,4 +7,8 @@
     <string name="sign_up">Sign Up</string>
     <string name="enter_your_name">Enter your Name</string>
     <string name="hello_darkness">Hello Darkness</string>
+    <string name="log_out">Log Out</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="this_is_sent_message">This is sent message</string>
+    <string name="this_is_received_message">this is received message</string>
 </resources>
