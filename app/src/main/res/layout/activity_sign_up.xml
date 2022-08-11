@@ -4,36 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUp">
+    tools:context=".SignUp"
+    android:background="@drawable/te">
 
     <EditText
         android:id="@+id/et2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="60sp"
-        android:layout_marginRight="60sp"
-        android:layout_marginBottom="375dp"
+        android:background="@drawable/message_box_background"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="393dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:paddingLeft="20dp"
         android:hint="@string/enter_your_name"/>
 
     <EditText
         android:id="@+id/et1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/message_box_background"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="60sp"
-        android:layout_marginRight="60sp"
-        android:layout_marginBottom="227dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="323dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:paddingLeft="20dp"
         android:hint="@string/enter_password" />
 
     <EditText
         android:id="@+id/et"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="60sp"
-        android:layout_marginRight="60sp"
-        android:layout_marginBottom="303dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="253dp"
+        android:textColor="@color/white"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/message_box_background"
         android:hint="@string/enter_your_email_id" />
 
     <Button
@@ -42,9 +55,10 @@
         android:layout_height="55dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="140dp"
+        android:layout_marginBottom="160dp"
         android:text="Sign Up"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:backgroundTint="@color/teal_200"
         />
