@@ -3,11 +3,13 @@
 This is a realtime one to one chat application with google authentication using a cloud-hosted NoSQL database that lets you store and sync data between your users in realtime.
 
 ## Features :
-   -Sign up
-   -Log In
-   -Edit Profile
-   -Log Out
-   -Send Messages
+   - Sign up
+   - Log In
+   - Edit Profile
+   - Log Out
+   - One to one chat connectivity
+   - User Authentication
+   - Realtime database
      
 ## Tasks - List :
    - [x] Update profile picture
@@ -16,5 +18,5 @@ This is a realtime one to one chat application with google authentication using 
 **You can run this Android App on Appetize.io** [here.](https://appetize.io/app/vzrh4vtq7rjrud5td54en5akay?device=pixel4&osVersion=11.0&scale=75)
 
 
-#Screenshots -
+# Screenshots -
 
