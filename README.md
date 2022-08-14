@@ -20,5 +20,8 @@ This is a realtime one to one chat application with google authentication using 
 
 # Screenshots -
 
-![1.](https://github.com/aummishra/Hasher---ChatApp/blob/master/ss1.jpg)
+![1.](https://github.com/aummishra/Hasher---ChatApp/blob/master/ss4.jpg)
+![2.](https://github.com/aummishra/Hasher---ChatApp/blob/master/ss3.jpg)
+![3.](https://github.com/aummishra/Hasher---ChatApp/blob/master/ss2.jpg)
+![4.](https://github.com/aummishra/Hasher---ChatApp/blob/master/ss1.jpg)
 
