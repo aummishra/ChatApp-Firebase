@@ -15,7 +15,7 @@ This is a realtime one to one chat application with google authentication using 
    - [x] Update profile picture
    - [ ] Enable Push Notifications
    
-**You can run this Android App on Appetize.io** [here.](https://appetize.io/app/vzrh4vtq7rjrud5td54en5akay?device=pixel4&osVersion=11.0&scale=75)
+**You can run this Android App on Appetize.io** [here.](https://appetize.io/app/exnzsf36finrvpadgasjvtaqua?device=pixel4&osVersion=11.0&scale=75)
 
 
 # Screenshots -
